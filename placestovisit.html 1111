@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhereToGo</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        .title-section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 20vh;
+            background-color: #f9f9f9;
+            padding-top: 20px;
+        }
+        .content-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px auto;
+        }
+        .round-frame {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #f0e4d7, #d6c1aa);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+        }
+        h2 {
+            color: #333;
+            font-size: 1.4rem;
+        }
+        p {
+            font-size: 0.9rem;
+            line-height: 1.4;
+            color: #555;
+        }
+        .image-container {
+            text-align: center;
+            margin-top: 15px;
+        }
+        img {
+            display: block;
+            margin: 10px auto;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Title Section -->
+    <div class="title-section">
+        <p>Hello everybody</p>
+        <p>This site was created as a collection of places in Baku where tourists can come and experience all the wondrous beauty of this magnificent city.</p>
+    </div>
+    
+    <!-- Content Section 1: Old City -->
+    <div class="content-section">
+        <div class="round-frame">
+            <div>
+                <h2>1. Old City</h2>
+                <p>The Old City (İçərişəhər) is an ancient residential quarter - historical and architectural reserve in the capital of Azerbaijan, Baku. Surrounded by well-preserved fortress walls, it is the most ancient part and landmark of the city. The most significant architectural monuments in Icheri-sheher are the Maiden Tower and the complex of Shirvanshahs Palace. Dozens of historical monuments are located here.</p>
+            </div>
+        </div>
+    </div>
+    <div class="image-container">
+        <img src="old city 1.jpg" alt="Baku" width="400" height="300">
+    </div>
+
+    <!-- Repeat for other sections -->
+
+    <!-- Content Section 2: Shirvanshahs Palace -->
+    <div class="content-section">
+        <div class="round-frame">
+            <div>
+                <h2>2. Shirvanshahs Palace</h2>
+                <p>The Shirvanshahs' Palace is a former residence with a complex that includes the palace, Divan-Khane, and more. It is part of UNESCO’s World Heritage List and a pearl of Azerbaijani architecture.</p>
+            </div>
+        </div>
+    </div>
+    <div class="image-container">
+        <img src="ширван ночь.jpeg" alt="Shirvanshahs Palace" width="400" height="200">
+    </div>
+
+    <!-- Repeat the pattern for other sections like Maiden Tower, Heydar Aliyev Center, and Museum of Modern Art -->
+
+</body>
+</html>

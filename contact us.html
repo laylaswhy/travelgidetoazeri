@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us - Website</title>
+<style>
+        /* General Reset and Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+ 
+        body {
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            text-align: center;
+            padding-top: 100px;
+        }
+ 
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgb(25, 54, 87);
+            color: white;
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+        }
+ 
+        .logo {
+            max-width: 150px;
+            height: auto;
+        }
+ 
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+ 
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 5px;
+            background-color: #0056b3;
+        }
+ 
+        nav a:hover {
+            background-color: #003d82;
+        }
+ 
+        main {
+            margin-top: 150px;
+            padding: 20px;
+        }
+ 
+        form {
+            display: inline-block;
+            text-align: left;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+            margin: 20px auto;
+        }
+ 
+        form input, form textarea, form button {
+            display: block;
+            width: calc(100% - 20px);
+            margin: 10px 10px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+ 
+        form button {
+            background-color: #4c6e92;
+            color: white;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+        }
+ 
+        form button:hover {
+            background-color: #4c6e92;
+        }
+</style>
+</head>
+<body>
+<!-- Header Section -->
+<header>
+<img src="logo.jpg" alt="Website Logo" class="logo">
+<nav>
+<a href="index.html">Home</a>
+<a href="about us.html">About</a>
+</nav>
+</header>
+ 
+<!-- Main Content -->
+<main>
+    <h1>Contact Us</h1>
+    <form id="contactForm" onsubmit="submitContactForm(event)">
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</main>
+
+<style>
+    main, form, input, textarea, button, h1 {
+        font-family: "Times New Roman", Times, serif;
+    }
+</style>
+
+    <!-- Firebase SDK -->
+<script type="module">
+        // Import Firebase SDK
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js";
+        import { getDatabase, ref, push } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-database.js";
+ 
+        // Firebase Configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyDXu-LQtKfbXirWTM9mlTqzjjkRYwqyjBg",
+            authDomain: "website-1-d2283.firebaseapp.com",
+            databaseURL: "https://website-1-d2283-default-rtdb.firebaseio.com",
+            projectId: "website-1-d2283",
+            storageBucket: "website-1-d2283.firebasestorage.app",
+            messagingSenderId: "342705585990",
+            appId: "1:342705585990:web:5a1a54a046757b2360af47",
+            measurementId: "G-B0MXN8M817"
+        };
+ 
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const database = getDatabase(app);
+ 
+        // Submit Form Data to Firebase
+        function submitContactForm(event) {
+            event.preventDefault(); // Prevent page reload
+ 
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const message = document.getElementById("message").value;
+ 
+            // Push data to Firebase Realtime Database
+            push(ref(database, "contacts"), {
+                name: name,
+                email: email,
+                message: message
+            })
+            .then(() => {
+                alert("Thank you for submitting your details!");
+                document.getElementById("contactForm").reset(); // Reset form fields
+            })
+            .catch((error) => {
+                alert("Error: " + error.message);
+            });
+        }
+</script>
+</body>
+</html> 

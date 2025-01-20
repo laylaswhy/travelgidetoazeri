@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Places In Baku To Visit</title>
+    <style>
+        body { 
+            font-family: 'Times New Roman', Times, serif; 
+            text-align: center; 
+            margin-top: 100px; 
+        }
+        .logo {
+            display: block;
+            margin: 0 auto;
+            max-width: 100px; /* Adjust size if needed */
+        }
+        a { 
+            text-decoration: none; 
+            padding: 10px 20px; 
+            margin: 10px; 
+            border: 1px solid #333;  
+            border-radius: 5px; 
+            background-color: rgb(25, 54, 87);; 
+            color: rgb(255, 255, 255); 
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .subtitle {
+            font-size: 1.2em;
+            color: #333;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Logo positioned above the text -->
+    <img src="logo.jpg" alt="Logo" class="logo" />
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Azerbaijan Travel Guide</title>
+  <style>
+    /* General styling */
+    body {
+      font-family: 'Times New Roman', Times, serif, sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 1.2em;
+      color: rgb(0, 0, 0);
+    }
+
+    a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+    }
+
+    /* Move the image lower */
+    .move-lower {
+      margin-top: 50px; /* Pushes the image 50px lower */
+      display: block;
+      margin-left: auto; /* Centers the image */
+      margin-right: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Azerbaijan Travel Guide</h1>
+  <p class="subtitle">Discover The Land Of Fire!</p>
+  <a a href="places to visit.html">Places to visit</a>
+  <a a href="contact us.html 2">Contact Us</a>
+  <a a href="about us.html">About Us</a>
+  <div>
+    <img src="ihai.jpg" alt="Baku" class="move-lower" width="400" height="300">
+  </div>
+</body>
+</html>

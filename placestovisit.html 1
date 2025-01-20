@@ -1,0 +1,166 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhereToGo</title>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baku Tourism</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .title-section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 20vh; /* Adjust height as needed */
+            background-color: #f9f9f9;
+            padding-top: 20px;
+        }
+        .content-section {
+            padding: 20px;
+        }
+        h2 {
+            margin-top: 30px;
+            color: #333;
+        }
+        p {
+            text-align: justify;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <!-- Title Section -->
+    <div class="title-section">
+        <p>Hello everybody</p>
+        <p>This site was created as a collection of places in Baku where tourists can come and experience all the wondrous beauty of this magnificent city</p>
+    </div>
+    
+    <!-- Content Section -->
+    <div class="content-section">
+        <h2>1. Old City</h2>
+        <p>The Old City (İçərişəhər) is an ancient residential quarter - historical and architectural reserve in the capital of Azerbaijan, Baku. Surrounded by well-preserved fortress walls, it is the most ancient part and landmark of the city. The most significant architectural monuments in Icheri-sheher are the Maiden Tower and the complex of Shirvanshahs Palace. In addition, dozens of historical monuments - mosques, caravanserais, bathhouses, residential houses, several museums, embassies, hotels, shopping facilities, cafes, and restaurants are located on the territory of the reserve.</p>
+    </div>
+    <div>
+        <img src="old city 1.jpg" alt="Baku" class="move-lower" width="400" height="300">
+    </div>
+    <h2>2. Shirvanshahs Palace</h2>
+<p>
+    Shirvanshahs' Palace (Şirvanşahlar sarayı) is the former residence of the Shirvanshahs.
+    It forms a complex, which besides the palace itself also includes the courtyard of the Divan-Khane, the tomb of the Shirvanshahs, the palace mosque of 1441, the bathhouse and the mausoleum of the court scholar Seyyid Yahya Bakuvi. The construction of the palace was connected with the transfer of the capital of the Shirvanshahs' state from Shemakha to Baku. In 2000, the unique architectural and cultural ensemble, along with the walled historic part of the city and the Maiden Tower, was included in the UNESCO World Heritage List. The Shirvanshahs' Palace is still considered one of the pearls of Azerbaijani architecture today
+</p>
+<img src="ширван ночь.jpeg" alt="center" width="400" height="200">
+<img src="ширван.jpeg" alt="center" width="400" height="200">
+<h2>3. Maiden Tower</h2>
+<p>
+    Maiden Tower (Qız Qalası) is an ancient fortress building near the coastal part of Icheri-Sheher. It is one of the most important components of the seaside “facade” of Baku. The tower stands on a rock, its height is 28 meters above sea level. The tower is included in the UNESCO World Heritage List. There are many legends around the Maiden Tower, all of which are very interesting.
+</p>
+<img src="qizqalasi.jpg" alt="center" width="350" height="350">
+<img src="qiz 2.jpg" alt="center" width="450" height="350">
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heydar Aliyev Center</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h2 {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+<h2>4. Heydar Aliev Centre</h2>
+<p>
+    Heydar Aliyev Center (Heydər Əliyev Mərkəzi) is a cultural center located on Heydar Aliyev Avenue in Baku, 
+    the capital of Azerbaijan. The center is a complex building that includes an auditorium, museum, exhibition 
+    halls and administrative offices.
+    The center was designed in 2007 by architect Zaha Hadid. The Heydar Aliyev Cultural Center is considered one 
+    of the symbols of modern Baku.
+</p>
+<img src="Гейдар снаружи.jpg" alt="center" width="300" height="300"> <img src="Гейдар изнутри.jpg" alt="centre" width="300" height="300">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museum of Modern Art</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h2 {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+<h2>5. Museum of Modern Art</h2>
+<p>
+    The of modern art (Müasir İncəsənət muzeyi) contains over 800 works by Azerbaijani artists and sculptors, mostly working in the avant-garde style.
+    The museum exhibits works by such masters as Sattar Bahlulzade, Beyukaga Mirzazade, Elmira Shahtakhtinskaya, Tair Salahov, Omar Eldarov, Nadir Abdurakhmanov, Gennady Brizhatyuk and many others.
+</p>
+<p>
+    A separate hall exhibits works by representatives of Western avant-gardism Salvador Dali, Pablo Picasso and Marc Chagall.
+    The author of architecture and design, as well as the selection of the collection and exposition of the museum is the artist Altay Sadykhzadeh.
+    The museum has a hall of Western European art, a hall of children's art, a library, a video hall, and an art cafe.
+</p>
+<img src="museum 344.jpg" alt="center" width="300" height="300">
+<img src="museum of art 2.jpg" alt="center" width="300" height="300">
+<h2>6. Azerbaijan National Carpet Museum</h2>
+<p>
+    Azerbaijan National Carpet Museum (Azərbaycan milli xalça muzeyi) is a museum of Azerbaijan dedicated to carpet weaving, one of the oldest types of decorative and applied arts of the country. Carpet weaving is one of the oldest types of decorative-applied art of Azerbaijan. The data of archeological researches carried out in the territory of the state testify that the art of carpet weaving originated in Azerbaijan in ancient times. The Carpet Museum carries out great and painstaking work on popularization of the national cultural heritage by holding international exhibitions, conferences, symposiums and other events.
+    The most important tasks of this institution are storage, research and demonstration of unique samples of carpet art, which is the national treasure of Azerbaijan.
+</p>
+<img src="ковры.jpg" alt="center" width="300" height="300">
+<img src="ковры.jpeg" alt="center" width="300" height="300">
+<h2>7. Flame Towers</h2>
+<p>
+    The Flame Towers (Alov qüllələri) are a group of three skyscrapers in Baku
+    The height of the tallest tower is 182m. The three flame-shaped towers are intended to symbolize the elements of fire, and are a reference to Azerbaijan's nickname "The Land of Fire", historically rooted in a region where natural gas flares emit from the ground and Zoroastrian worshipers considered flames to be a symbol of the divine. The three buildings (South, East and West) consist of 130 residential apartments over 33 floors, a Fairmont hotel tower that consists of 250 rooms and 61 serviced apartments, and office blocks that provides a net 33,114 square meters of office space.
+</p>
+<img src="flame.jpg" alt="center" width="300" height="300">
+<img src="flame456y7u8.webp" alt="center" width="300" height="300">
+<h2>8. Little Venice</h2>
+<p>
+    Little Venice (Kiçik Venesiya) is a system of recreational water canals located in the capital of Azerbaijan, Baku, on the territory of the seaside boulevard. “Little Venice” has existed since 1960, is a landmark of the seaside park and is considered a favorite place of recreation for visitors to the park. In the 50s, chairman of Baku City Executive Committee Alish Lemberansky visited Venice. Admired by the beauty of the Italian city, Lemberansky returned to Baku and decided to create “Little Venice” in Baku, and the seaside boulevard was chosen as the place. Despite the fact that the project was considered for a long time, “Little Venice” appeared in Baku in 1960, and Baku Boulevard became the first and only park in the former USSR with such an attraction
+</p>
+<img src="little 2.jpg" alt="center" width="400" height="200">
+<img src="venice.jpeg" alt="center" width="400" height="200">
+<h2>9. Baku Eye</h2>
+<p>
+    Baku eye (Şeytan çarxı) is a 60-meter-high Ferris wheel located in Baku city, in the new boulevard part of the Seaside National Park, stretching to the State Flag Square. It was built by Dutch Wheels, a Dutch company, in 2014.
+</p>
+<p>
+    When you are 60 meters above sea level you have an unforgettable view of the most beautiful city. 
+</p>
+<img src="baku eye 2.jpg" alt="center" width="350" height="200">
+<img src="baku eye.jpg" alt="center" width="400" height="200">
+<h2>10. Surakhana Ship Museum</h2>
+<p>
+    Surakhani Ship Museum (Suraxanı gəmi-muzeyi) is a museum in Baku reflecting the history of the development of shipping and seafaring traditions in Azerbaijan.</p>
+<p>The museum, which is the first tanker museum in the world, provides information about the history of the Caspian Sea and Azerbaijan shipping, as well as the activities of Azerbaijani sailors.
+</p>
+<img src="ship.jpeg" alt="center" width="400" height="250">
+<img src="ship out.jpeg" alt="center" width="400" height="250">
+</body>
+</html>
